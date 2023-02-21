@@ -1,5 +1,9 @@
 
-
+:root {
+    --primary: #242582;
+    --secondary: #f64c72;
+    
+}
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
