@@ -2,6 +2,7 @@
 :root {
     --primary: #242582;
     --secondary: #f64c72;
+    --links: #fff;
     
 }
 
@@ -13,7 +14,7 @@ h1 {
 
 a {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: var(--links) ;
     font-size: 2em;
 
 }
@@ -25,12 +26,13 @@ header {
     justify-content: space-between;
     align-items: baseline;
     max-width: 100%;
-    background-color: #d84f2a;
+    background-color: var(--primary);
 }
 
 header h1{
     flex: 1 0 50%;
     padding-left: 6%;
+    color: var(--secondary);
 }
 
 
@@ -45,6 +47,15 @@ nav{
 nav a {
     text-decoration: none;
     flex: 1 0 29%;
-    font
+    font-family: Arial, Helvetica, sans-serif;
     
+}
+
+
+.slideshow{
+    min-height: 45vh;
+    width: 100%;
+    background-image:url(./images/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg);
+    background-position: top ;
+    background-size: cover;
 }
