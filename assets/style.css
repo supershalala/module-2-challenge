@@ -7,6 +7,8 @@
     
 }
 
+
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -28,6 +30,7 @@ header {
     align-items: baseline;
     max-width: 100%;
     background-color: var(--primary);
+    height: 10vh;
 }
 
 header h1{
@@ -76,10 +79,15 @@ nav a {
 .card{
     display: flex;
     flex-flow: column nowrap;
-    flex: 1 0 50%;
-    height: 30vh;
-    padding: 5% 0;
-    margin-top: 5%;
+    flex: 1 0 25%;
+    height: 25vh;
+    padding-top: 1%;
+    margin-top: 1%;
+}
+
+.main-card {
+    flex: 1 0 80%;
+    height: 40vh;;
 }
 
 .card img {
@@ -110,6 +118,7 @@ nav a {
     position: relative;
     margin-top: -15px;
     margin-left: 15px;
+    background-color: var(--primary);
     color: var(--links);
 
 }
