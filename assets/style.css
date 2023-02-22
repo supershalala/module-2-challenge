@@ -1,6 +1,6 @@
 
 :root {
-    --primary: #242582;
+    --primary: #242682;
     --secondary: #f64c72;
     --links: #fff;
     --border: 20px;
@@ -62,20 +62,9 @@ nav a {
 }
 
 
-.about-me{
-    min-height: 45vh;
-    width: 100%;
-    background-image:url(./images/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg);
-    background-position: top ;
-    background-size: cover;
-}
 
-.about-me h2 {
-    background-color: var(--secondary);
-    color: var(--links);
-}
 
-.my-work {
+.card-layout {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -144,8 +133,22 @@ nav a {
     /* position: relative;
     margin-top: -15px;
     margin-left: 15px; */
-    background-color: var(--primary);
     /* max-width: fit-content; */
+    background-color: var(--primary);
     color: var(--links);
-    padding:1% 0 1% 2.5%;
+    padding:1% 5% 1% 2.5%;
+}
+
+
+.about-me .card {
+    height: 60vh;
+    margin-top: 0;
+    background-color: var(--links);
+
+}
+
+.about-me .card p {
+    color: var(--primary);
+    padding:1% 15% 1% 15%;
+    background-color: white;
 }
