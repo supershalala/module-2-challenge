@@ -105,9 +105,16 @@ nav a {
     padding: 0 10%;
 }
 
+.main-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
 
 
-.card img {
+
+.card img,a {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
@@ -149,12 +156,13 @@ nav a {
 
 
 
+
 .contact-card {
     background-color: var(--primary);
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -168,8 +176,14 @@ nav a {
 
 .contact-card img {
     padding: 2% 5%;
-    flex: 1  20%;
-    max-width: 10%;
+    max-width: 100%;
+}
+
+.contact-card a {
+    flex: 1 0 25%;
+    text-align: center;
+
+    max-width: 100%;
 }
 
 
@@ -201,6 +215,7 @@ nav a {
 
     .card-layout {
         flex-flow: column nowrap;
+        padding: 0;
     }
 
     .main-card {
@@ -225,8 +240,8 @@ nav a {
 
     .contact-card img {
         padding: 2% 5%;
-        flex: 1  20%;
-        max-width: 25%;
+        flex: 1 1 40%;
+        max-width: 50%;
     }
 
     .contact-card h2 {
@@ -241,6 +256,12 @@ nav a {
      
         justify-content: space-evenly;
     
+    }
+
+    .contact-card a {
+        flex: 1 0 50%;
+    
+        max-width: 100%;
     }
         
 }
