@@ -171,3 +171,76 @@ nav a {
     flex: 1  20%;
     max-width: 10%;
 }
+
+
+@media only screen and (max-width:700px) {
+
+    header {
+        height: 12vh;
+    }
+
+    header h1{
+        flex: 1 0 50%;
+        font-size: 2em;
+        padding: 3% 5% 0 5%;
+        text-align: center;
+    }
+
+    nav {
+        flex: 1 0 50%;
+    }
+ 
+
+    nav a {
+        font-size: 1.5em;
+        
+    }
+
+  
+
+
+    .card-layout {
+        flex-flow: column nowrap;
+    }
+
+    .main-card {
+
+        width: 100%;
+       
+    
+    }
+
+    .main-card h2{
+    
+        padding: 3% 0 4% 0;
+    }
+    
+
+
+    .about-me .card p {
+        color: var(--primary);
+        padding:10% 10%;
+        background-color: white;
+    }
+
+    .contact-card img {
+        padding: 2% 5%;
+        flex: 1  20%;
+        max-width: 25%;
+    }
+
+    .contact-card h2 {
+        flex: 1 0 100%;
+        text-align: center;
+        padding: 5% 0 5% 0;
+        color: var(--secondary);
+        font-size: 3em;
+    }
+
+    .contact-card {
+     
+        justify-content: space-evenly;
+    
+    }
+        
+}
